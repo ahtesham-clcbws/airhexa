@@ -13,8 +13,13 @@
             <div class="content-side">
                 <div class="service-detail">
                     <div class="images-box row">
-                        
-                        <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
+
+                        <?php foreach (GALLERY_IMAGES as $key => $gallery) : ?>
+                            <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
+                                <figure class="image wow fadeIn"><a href="/img/gallery/<?= $gallery ?>" class="lightbox-image" data-fancybox="services"><img src="/img/gallery/<?= $gallery ?>" alt=""></a></figure>
+                            </div>
+                        <?php endforeach; ?>
+                        <!-- <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
                             <figure class="image wow fadeIn"><a href="/img/resource/service-img-1.jpg" class="lightbox-image" data-fancybox="services"><img src="/img/resource/service-img-1.jpg" alt=""></a></figure>
                         </div>
                         <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
@@ -37,10 +42,7 @@
                         </div>
                         <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
                             <figure class="image wow fadeIn"><a href="/img/resource/service-img-1.jpg" class="lightbox-image" data-fancybox="services"><img src="/img/resource/service-img-1.jpg" alt=""></a></figure>
-                        </div>
-                        <div class="column col-lg-4 col-md-4 col-sm-6 wow fadeInLeft">
-                            <figure class="image wow fadeIn"><a href="/img/resource/service-img-1.jpg" class="lightbox-image" data-fancybox="services"><img src="/img/resource/service-img-1.jpg" alt=""></a></figure>
-                        </div>
+                        </div> -->
 
 
                     </div>

@@ -3,12 +3,10 @@
 <?= $this->section('content') ?>
 
 <!-- breadcrumb-area -->
-<?= view('Components/WebServicesBreadcrumb', ['serviceName' => 'CCTV & Security Surveillance', 'imageUrl' => '/img/testimonial/test-bg.jpg']); ?>
+<?= view('Components/WebServicesBreadcrumb', ['serviceName' => 'CCTV & Security Surveillance', 'imageUrl' => '/img/serviceBanner/cctvAndSecuritySurveillanceService.jpg']); ?>
 <!-- breadcrumb-area-end -->
 <!-- choose-area -->
 <section class="choose-area pt-100 pb-100 p-relative">
-    <!-- <div class="chosse-img wow fadeInRight animated" data-animation="fadeInRight animated" data-delay=".2s">
-    </div> -->
     <div class="container">
         <div class="row">
             <!-- rightside -->

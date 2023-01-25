@@ -107,76 +107,6 @@
 	}
 	mainSlider();
 
-
-	// services-active
-	$('.services-active').slick({
-		dots: true,
-		infinite: true,
-		arrows: false,
-		speed: 1000,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 1200,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 1,
-					infinite: true,
-					dots: true
-				}
-			},
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
-
-	// team-active
-	$('.team-active').slick({
-		dots: true,
-		infinite: true,
-		arrows: false,
-		speed: 1000,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 1200,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 1,
-					infinite: true,
-					dots: true
-				}
-			},
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 767,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-		]
-	});
 	// portfolio-active
 	$('.portfolio-active').slick({
 		dots: false,
@@ -354,21 +284,8 @@
 		]
 	});
 
-	// blog
-	$('.blog-active').slick({
-		dots: false,
-		infinite: true,
-		arrows: true,
-		speed: 1500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		fade: true,
-		prevArrow: '<button type="button" class="slick-prev"><i class="fas fa-arrow-left"></i></button>',
-		nextArrow: '<button type="button" class="slick-next"><i class="fas fa-arrow-right"></i></button>',
-	});
 
 	// counterUp
-
 	$('.count').counterUp({
 		delay: 100,
 		time: 1000
@@ -452,13 +369,13 @@
 			typeSpeed: 100,
 			backDelay: 3e3
 		})
-	}),
-		//for menu active class
-		$('.button-group > button').on('click', function (event) {
-			$(this).siblings('.active').removeClass('active');
-			$(this).addClass('active');
-			event.preventDefault();
-		});
+	})
+	//for menu active class
+	$('.button-group > button').on('click', function (event) {
+		$(this).siblings('.active').removeClass('active');
+		$(this).addClass('active');
+		event.preventDefault();
+	});
 
 	// WOW active
 	new WOW().init();
@@ -483,3 +400,90 @@
 	}
 
 })(jQuery);
+
+function alert(title = 'Success', icon = 'success', message, otherOptions = []) {
+	return Swal.fire({
+		title: title,
+		icon: icon,
+		text: message,
+		...otherOptions
+	});
+}
+
+function toggleLoader(show = false) {
+	if (show) {
+		$('#loader').show();
+	} else {
+		$('#loader').hide();
+	}
+}
+
+$('#quoteModal').on('hidden.bs.modal', function (event) {
+	$('#quoteForm')[0].reset();
+})
+
+$('#quoteForm').on('submit', function (e) {
+	e.preventDefault();
+	toggleLoader(true);
+	var formData = new FormData($(this)[0]);
+	console.log(Array.from(formData));
+
+	$.ajax({
+		url: '/request/form-submission',
+		type: 'post',
+		data: formData,
+		contentType: false,
+		processData: false,
+		success: function (response) {
+			toggleLoader(false);
+			console.log(response);
+			try {
+				response.success ? alert('Success', 'success', response.message).then(() => {
+					location.reload();
+				}) : alert('Error', 'error', response.message).then(() => {
+					location.reload();
+				})
+			} catch (error) {
+				alert('Error', 'error', error);
+			}
+		},
+		error: function (error) {
+			toggleLoader(false);
+			console.log(error)
+			alert('Error', 'error', error);
+		}
+	})
+})
+
+$('#contactForm').on('submit', function (e) {
+	e.preventDefault();
+	toggleLoader(true);
+	var formData = new FormData($(this)[0]);
+	console.log(Array.from(formData));
+	// return;
+	$.ajax({
+		url: '/request/form-submission',
+		type: 'post',
+		data: formData,
+		contentType: false,
+		processData: false,
+		success: function (response) {
+			toggleLoader(false);
+			console.log(response);
+			try {
+				response.success ? alert('Success', 'success', response.message).then(() => {
+					location.reload();
+				}) : alert('Error', 'error', response.message).then(() => {
+					location.reload();
+				})
+			} catch (error) {
+				alert('Error', 'error', error);
+			}
+		},
+		error: function (error) {
+			toggleLoader(false);
+			console.log(error)
+			alert('Error', 'error', error);
+		}
+	})
+})

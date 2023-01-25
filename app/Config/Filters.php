@@ -32,7 +32,7 @@ class Filters extends BaseConfig
     public array $globals = [
         'before' => [
             'honeypot',
-            'csrf',
+            // 'csrf',
             // 'invalidchars',
         ],
         'after' => [
@@ -54,7 +54,7 @@ class Filters extends BaseConfig
      * with a method you don’t expect could bypass the filter.
      */
     public array $methods = [
-        'post' => ['csrf']
+        // 'post' => ['csrf']
     ];
 
     /**

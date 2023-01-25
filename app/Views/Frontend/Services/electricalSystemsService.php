@@ -3,7 +3,7 @@
 <?= $this->section('content') ?>
 
 <!-- breadcrumb-area -->
-<?= view('Components/WebServicesBreadcrumb', ['serviceName' => 'Electrical Systems', 'imageUrl' => '/img/testimonial/test-bg.jpg']); ?>
+<?= view('Components/WebServicesBreadcrumb', ['serviceName' => 'Electrical Systems', 'imageUrl' => '/img/serviceBanner/electricalSystemsService.jpg']); ?>
 <!-- breadcrumb-area-end -->
 <!-- choose-area -->
 <section class="choose-area pt-100 pb-100 p-relative">
@@ -17,30 +17,37 @@
 
                     <div class="content-box">
                         <h2>Electrical System</h2>
-                        <p>In 2010, we have established our Company as a Electrical Contracting Firm. We
-                            undertake Turn-key Electrical Projects and are principally engaged in executing and
-                            providing Electrical Engineering Service for power, Process, Industrial and
-                            Commercial projects both High Tension as well as Low Tension for the Public and
-                            Private Sector Undertakings. We provide Services like Designing, Manufacturing,
-                            Service, Consultancy &amp; Supply all under one Roof. Our range includes:</p>
+                        <h5>Low Voltage</h5>
+                        <p class="mb-0">
+                            Air Hexa Air Solutions LLP Works engineers low voltage systems that distributes power where is needed, safely and reliably, while providing optimal protection for personnel and equipment. Our range of low voltage distribution elements includes:
+                        </p>
                         <ul class="listStyleBullet">
-                            <li>Substations up to (33KV),</li>
-                            <li>Overhead HT/LT Transmission lines installation.</li>
-                            <li>H.T/L.T Substation Works / Transformers / RMU /Switchyard.</li>
-                            <li>Design, Fabrication &amp; Erection of medium voltage panel, Control Panels,</li>
-                            <li>Capacitor banks &amp; APFC Panel.</li>
-                            <li>Internal Electrification of Residential/Commercial works.</li>
-                            <li>Façade / Landscaping / external lighting.</li>
-                            <li>Street light Poles / Outdoor lighting / Underground Cabling.</li>
-                            <li>Cable Tray’s / Raceways /Floor Trunking /Junction Boxes/PVC/GI/MS Conduiting
-                                /Hume Pipe /Cable Trenches etc.</li>
-                            <li>Bus Ducts/Rising Mains/Sub mains /Meter Room Infra works.</li>
-                            <li>Diesel Generator Sets.</li>
-                            <li>LV Installation Data/Telephone/Television.</li>
-                            <li>UPS / Inverter / WIFI &amp; Networking system etc.</li>
-                            <li>Earthing &amp; many more……</li>
+                            <li>Grounding </li>
+                            <li>Main Distribution Boards (MDB) </li>
+                            <li>Secondary Main Distribution Boards (SMDB) </li>
+                            <li>Final Distribution Boards ( FDB ) </li>
+                            <li>Cables </li>
+                            <li>Lighting fixtures </li>
+                            <li>Sockets</li>
+                        </ul>
+                        <br />
+                        <p class="mb-0">Emergency power systems are extremely useful in many different environments, such as residential buildings, hospitals, research laboratories, data centers and telecommunications centers. Air Hexa Air Solutions LLP specializes in many emergency power systems which include: </p>
+                        <ul class="listStyleBullet">
+                            <li>Generators </li>
+                            <li>UPS</li>
                         </ul>
 
+                        <h5 class="mt-3">Low Current</h5>
+                        <ul class="listStyleBullet">
+                            <li>Data and Communication </li>
+                            <li>Fire Alarm </li>
+                            <li>Access Control </li>
+                            <li>Queue Management System </li>
+                            <li>BMS ( Building Management System ) </li>
+                            <li>Audio Visual </li>
+                            <li>Lighting Control System </li>
+                            <li>Video and Audio Intercom System </li>
+                        </ul>
                     </div>
                 </div>
 

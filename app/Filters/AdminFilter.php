@@ -25,7 +25,10 @@ class AdminFilter implements FilterInterface
      */
     public function before(RequestInterface $request, $arguments = null)
     {
-        //
+        if (!session()->get('isLoggedin')) {
+            return redirect()->to('/login');
+        }
+        return true;
     }
 
     /**

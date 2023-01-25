@@ -10,15 +10,13 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="slider-content s-slider-content text-left">
-                            <span data-animation="fadeInUp" data-delay=".2s">Welcome to Factory & Industry
-                                Business </span>
+                            <span data-animation="fadeInUp" data-delay=".2s">Welcome to Air Hexa Air Solutions LLP </span>
                             <h2 data-animation="fadeInUp" data-delay=".4s">Reliable <span>Engineering</span><br>
                                 Takes Many Forms</h2>
-                            <p data-animation="fadeInUp" data-delay=".6s">It is a long established fact that a
-                                reader will be distracted by the readable content layout readable
-                                English.ratione, id soluta aspernatur nulla minus.</p>
+                            <p data-animation="fadeInUp" data-delay=".6s">We are one of the influential Company interwoven with the development of the
+                                MEP Contracting industry in the New Delhi.</p>
                             <div class="slider-btn mt-40">
-                                <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
+                                <a href="https://airhexa.test/about-us" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
                                 <div class="btn-after" data-animation="fadeInRight" data-delay=".8s"></div>
                             </div>
                         </div>
@@ -36,13 +34,11 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="slider-content s-slider-content text-left">
-                            <span data-animation="fadeInUp" data-delay=".2s">Welcome to Factory & Industry
-                                Business </span>
-                            <h2 data-animation="fadeInUp" data-delay=".4s">Reliable <span>Engineering</span><br>
-                                Takes Many Forms</h2>
-                            <p data-animation="fadeInUp" data-delay=".6s">It is a long established fact that a
-                                reader will be distracted by the readable content layout readable
-                                English.ratione, id soluta aspernatur nulla minus.</p>
+                            <span data-animation="fadeInUp" data-delay=".2s">Best plumbing services by professionals </span>
+                            <h2 data-animation="fadeInUp" data-delay=".4s">Industrial <span>Plumbing</span><br>
+                                With Perfection</h2>
+                            <p data-animation="fadeInUp" data-delay=".6s">well dimensioned and securely connected pipes, drains, fittings, valves,
+                                assemblies and equipment for proper water distribution.</p>
                             <div class="slider-btn mt-40">
                                 <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
                                 <div class="btn-after" data-animation="fadeInRight" data-delay=".8s"></div>
@@ -57,7 +53,31 @@
                 </div>
             </div>
         </div>
-        <div class="single-slider slider-bg slider-bg5 d-flex align-items-center" style="background-image:url(/img/slider/slider_img01.jpg)">
+        <div class="single-slider slider-bg slider-bg5 d-flex align-items-center" style="background-image:url(/img/slider/slider_img03.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="slider-content s-slider-content text-left">
+                            <span data-animation="fadeInUp" data-delay=".2s">Low Current and Low Voltage Electrical</span>
+                            <h2 data-animation="fadeInUp" data-delay=".4s">Reliable <span>Electrical</span><br>
+                                Solutions for Low Current</h2>
+                            <p data-animation="fadeInUp" data-delay=".6s">We low voltage systems that distributes power where is needed, safely and reliably,
+                                while providing optimal protection for personnel and equipment. .</p>
+                            <div class="slider-btn mt-40">
+                                <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
+                                <div class="btn-after" data-animation="fadeInRight" data-delay=".8s"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- <div class="single-slider slider-bg slider-bg5 d-flex align-items-center" style="background-image:url(/img/slider/slider_img04.jpg)">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
@@ -76,39 +96,12 @@
                         </div>
                     </div>
                     <div class="col-lg-5">
-
                     </div>
-
-
                 </div>
             </div>
-        </div>
-        <div class="single-slider slider-bg slider-bg5 d-flex align-items-center" style="background-image:url(/img/slider/slider_img02.jpg)">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7">
-                        <div class="slider-content s-slider-content text-left">
-                            <span data-animation="fadeInUp" data-delay=".2s">Welcome to Factory & Industry
-                                Business </span>
-                            <h2 data-animation="fadeInUp" data-delay=".4s">Reliable <span>Engineering</span><br>
-                                Takes Many Forms</h2>
-                            <p data-animation="fadeInUp" data-delay=".6s">It is a long established fact that a
-                                reader will be distracted by the readable content layout readable
-                                English.ratione, id soluta aspernatur nulla minus.</p>
-                            <div class="slider-btn mt-40">
-                                <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read More</a>
-                                <div class="btn-after" data-animation="fadeInRight" data-delay=".8s"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-
-                    </div>
+        </div> -->
 
 
-                </div>
-            </div>
-        </div>
     </div>
 </section>
 <!-- slider-area-end -->
@@ -123,13 +116,13 @@
                         <span>About Us <small class="circle-right"><img src="/img/bg/circle_right.png" alt="img"></small></span>
                         <h2>Industry Is A Better Horse To Ride Than Genius</h2>
                     </div>
-                    <p>Donec ut ultricies ante. Proin at sodales risus. Fusce tempor dui id convallis
-                        sollicitudin. Mauris vitae elit elementum, faucibus libero a, interdum tortor. Orci
-                        varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                    <P>Mauris at sapien ut libero tempor convallis volutpat et dolor. Duis eleifend odio ante,
-                        at scelerisque est blandit a. Morbi faucibus dolor nisi, id suscipit massa vulputate at.
-                    </P>
-                    <div class="row  mt-20">
+                    <p>“AIR HEXA AIR SOLUTIONS LLP” is one of the influential Company interwoven with the development of the
+                        MEP Contracting industry in the New Delhi. From the same years, Team AIR HEXA AIR SOLUTIONS LLP has excelled
+                        in engineering and executing projects in different sectors including, Residential, Healthcare, Industrial, and Hospitality.
+                        Our commitment to execute projects with highest quality, on schedule and within budget while adhering to excellent standards of health,
+                        safety and environment, positioned, Air Hexa Air Solutions LLP to be recognized as an icon in Electro-Mechanical Engineering. With the professional,
+                        experienced & devoted workforce and a progressive management the Air Hexa Air Solutions LLP is moving towards a better future. </P>
+                    <!-- <div class="row  mt-20">
                         <div class="col-lg-4">
                             <img src="/img/features/signature.png" alt="img">
                             <div class="signature-text">
@@ -139,7 +132,7 @@
                         <div class="col-lg-4">
                             <img src="/img/features/30-years.png" alt="img">
                         </div>
-                    </div>
+                    </div> -->
                     <div class="slider-btn mt-30">
                         <a href="#" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Read
                             More</a>
@@ -172,7 +165,7 @@
                 <div class="single-counter text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                     <img src="/img/count/icon.png" alt="img">
                     <div class="counter p-relative">
-                        <span class="count">9878</span><small>+</small>
+                        <span class="count">40</span><small>+</small>
                     </div>
                     <p>Happy Clients</p>
                     <div class="line"></div>
@@ -182,7 +175,7 @@
                 <div class="single-counter text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                     <img src="/img/count/icon2.png" alt="img">
                     <div class="counter p-relative">
-                        <span class="count">500</span><small>+</small>
+                        <span class="count">30</span><small>+</small>
                     </div>
                     <p>Employees</p>
                     <div class="line"></div>
@@ -192,7 +185,7 @@
                 <div class="single-counter text-center wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                     <img src="/img/count/icon3.png" alt="img">
                     <div class="counter p-relative">
-                        <small>$</small><span class="count">58.45</span><small>M</small>
+                        <small>₹</small><span class="count">30.45</span><small>L</small>
                     </div>
                     <p>Annual Turnover</p>
                     <div class="line"></div>
@@ -223,9 +216,10 @@
                         <img src="/img/services/1-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Automotive Parts & Systems</a></h5>
-                        <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
-                            orci maximus pretium.</p>
+                        <h5><a href="<?= route_to('hvacService') ?>">HVAC</a></h5>
+                        <p>We install, maintain and repair air conditioning systems
+                            Residential, commercial and industrial such as home, school, Hospital Providing factories, offices,
+                            thermal comfort.</p>
                     </div>
 
                 </div>
@@ -237,9 +231,9 @@
                         <img src="/img/services/2-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Power & Energy</a></h5>
-                        <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
-                            orci maximus pretium.</p>
+                        <h5><a href="<?= route_to('plumbingSystemService') ?>">Plumbing & Drainage Systems</a></h5>
+                        <p>Air Hexa Air Solutions LLP Works places great emphasis on assurance that each installed plumbing system
+                            is equipped well dimensioned and securely connected pipes, drains, fittings, valves. </p>
                     </div>
 
                 </div>
@@ -251,9 +245,9 @@
                         <img src="/img/services/3-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Mechanical Works</a></h5>
-                        <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
-                            orci maximus pretium.</p>
+                        <h5><a href="<?= route_to('fireFightingSystemService') ?>">Fire Fighting System</a></h5>
+                        <p>The reliable protection systems we install have one main purpose which is to prevent the
+                            interruption of services necessary for the public welfare and avoid area wide Conflagrations.</p>
                     </div>
 
                 </div>
@@ -265,9 +259,9 @@
                         <img src="/img/services/4-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Mechanical Engineering</a></h5>
-                        <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
-                            orci maximus pretium.</p>
+                        <h5><a href="<?= route_to('electricalSystemsService') ?>">Electrical System (Low Current)</a></h5>
+                        <p>Air Hexa Air Solutions LLP Works engineers low voltage systems that distributes power where is needed,
+                            safely and reliably, while providing optimal protection for personnel and equipment.</p>
                     </div>
 
                 </div>
@@ -279,9 +273,9 @@
                         <img src="/img/services/5-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Maintenance</a></h5>
-                        <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
-                            orci maximus pretium.</p>
+                        <h5><a href="<?= route_to('industrialVentilationService') ?>">Industrial Ventilation</a></h5>
+                        <p>Air Hexa Air Solutions LLP one of the best Ventilation Contracting company in Delhi providing assistance in ventilation services which helps in exchange and
+                            circulation of air within the premises.</p>
                     </div>
 
                 </div>
@@ -293,7 +287,7 @@
                         <img src="/img/services/6-hover.svg" alt="img" class="active-icon">
                     </div>
                     <div class="second-services-content">
-                        <h5><a href="services-detail.html">Contruction & Engineering</a></h5>
+                        <h5><a href="<?= route_to('cctvAndSecuritySurveillanceService') ?>">CCTV &amp; Security Surveillance</a></h5>
                         <p>Mauris nunc felis, congue eu convallis in, bibendum vitae nisl. Duis vestibulum eget
                             orci maximus pretium.</p>
                     </div>
@@ -313,20 +307,19 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="section-title cta-title wow fadeInLeft animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <span>OUR IMPORTENTS <small class="circle-right"><img src="/img/bg/circle_right.png" alt="img"></small></span>
+                    <span class="text-mainColor2">OUR DRIVERS <small class="circle-right"><img src="/img/bg/circle_right.png" alt="img"></small></span>
                     <h2>How We Work For You To Boost Your Business</h2>
-                    <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc ornare mauris elit,
-                        vel semper ipsum convallis a. Quisque id faucibus massa. Aliquam a bibendum lacus, vitae
-                        laoreet lectus. Sed a velit suscipit, mattis elit sed, convallis elit.</p>
-                    <p>Phasellus ut consequat elit. Donec dapibus, dolor ac mollis mollis, sapien lorem gravida
-                        magna.</p>
-                    <div class="row mt-30">
+                    <p>AIR HEXA AIR SOLUTIONS LLP result-oriented culture is manifested through a “can do” attitude. It is driven by: </p>
+
+                    <div class="row mt-30 text-left text-white">
                         <div class="col-lg-5">
                             <div class="social">
-                                <div class="icon">
+                                <!-- <div class="icon">
                                     <img src="/img/video/1.svg" alt="img">
-                                </div>
-                                <p> <a href="#">info@example.com</a></p>
+                                </div> -->
+
+                                <h4 class="text-left text-white">1. Perfection</h4>
+                                <p class="text-left text-white">We take care of the details that ultimately create the highest quality solutions. </p>
                             </div>
                         </div>
                         <div class="col-lg-2">
@@ -335,10 +328,55 @@
                         </div>
                         <div class="col-lg-5">
                             <div class="social">
-                                <div class="icon">
+                                <!-- <div class="icon">
                                     <img src="/img/video/2.svg" alt="img">
-                                </div>
-                                <p> <a href="#">+91 555 234-8765</a></p>
+                                </div> -->
+                                <h4 class="text-left text-white">2. Professionalism</h4>
+                                <p class="text-left text-white">Our focus is on the job and client satisfaction to deliver best services. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="social">
+                                <!-- <div class="icon">
+                                    <img src="/img/video/2.svg" alt="img">
+                                </div> -->
+                                <h4 class="text-left text-white">3. Efficiency</h4>
+                                <p class="text-left text-white">We investment time and effort in careful planning and implementation. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="line"> <img src="/img/video/line.png" alt="img"></div>
+
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="social">
+                                <!-- <div class="icon">
+                                    <img src="/img/video/2.svg" alt="img">
+                                </div> -->
+                                <h4 class="text-left text-white">4. Skilling-up</h4>
+                                <p class="text-left text-white">Our team developed their skills through technical and managerial training. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="social">
+                                <!-- <div class="icon">
+                                    <img src="/img/video/2.svg" alt="img">
+                                </div> -->
+                                <h4 class="text-left text-white">5. Team Work</h4>
+                                <p class="text-left text-white">we encourage an open exchange of information and resources with our clients. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="line"> <img src="/img/video/line.png" alt="img"></div>
+
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="social">
+                                <!-- <div class="icon">
+                                    <img src="/img/video/2.svg" alt="img">
+                                </div> -->
+                                <h4 class="text-left text-white">6. Adaptability</h4>
+                                <p class="text-left text-white">We ensure that the evolving client needs are met with the highest standards. </p>
                             </div>
                         </div>
                     </div>
@@ -347,7 +385,7 @@
             </div>
             <div class="col-lg-6">
                 <div class="video-img wow fadeInRight animated" data-animation="fadeInDown animated" data-delay=".2s" style="background-image:url(/img/video/how-img.png); background-size: cover;">
-                    <a href="https://www.youtube.com/watch?v=vKSA_idPZkc" class="video-i popup-video"> <img src="/img/video/play.svg" alt="img" class="active-icon"></a>
+                    <a href="https://www.youtube.com/watch?v=7wZnk7Ll2Do" class="video-i popup-video"> <img src="/img/video/play.svg" alt="img" class="active-icon"></a>
                 </div>
 
             </div>
@@ -356,263 +394,6 @@
 </section>
 <!-- cta-area-end -->
 
-<!-- team-area-->
-<section id="team" class="pt-95 pb-90 d-none" style="background-image:url(/img/bg/our_team_bg.png); background-size: contain;background-position: center center;background-repeat: no-repeat;">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-8 col-lg-10">
-                <div class="section-title text-center pl-40 pr-40 mb-80">
-                    <span><small class="circle-left"><img src="/img/bg/circle_Left.png" alt="img"></small> OUR
-                        TEAM <small class="circle-right"><img src="/img/bg/circle_right.png" alt="img"></small></span>
-                    <h2>Our Expert Workers</h2>
-                </div>
-            </div>
-        </div>
-        <div class="row team-active">
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_01.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Nashid Martines</h4>
-                        <span>DIRECTOR</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_02.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Konne Backfield</h4>
-                        <span>MARKETING</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_03.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Hackson Willingham</h4>
-                        <span>SALES MANAGER</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_01.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Nashid Martines</h4>
-                        <span>DIRECTOR</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_02.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Konne Backfield</h4>
-                        <span>MARKETING</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-team text-center mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="team-thumb">
-                        <div class="brd">
-                            <img src="/img/team/team_03.png" alt="img">
-                        </div>
-                    </div>
-                    <div class="team-info">
-                        <h4>Hackson Willingham</h4>
-                        <span>SALES MANAGER</span>
-                        <div class="team-social mt-15">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- team-area-end -->
-
-<!-- project-area-->
-<section id="project" class="project pt-95 fix d-none" style="background-image:url(/img/bg/portfolio_bg.png); background-size: contain;background-repeat: no-repeat;">
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-xl-6 col-lg-10">
-                <div class="section-title text-left pl-40 pr-40 mb-80">
-                    <span>PORTFOLIO <small class="circle-right"><img src="/img/bg/circle_right.png" alt="img"></small></span>
-                    <h2>Our Latest Projects</h2>
-                </div>
-            </div>
-            <div class="col-xl-6 col-lg-10">
-
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row portfolio-active">
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img01.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img02.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img03.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img04.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img05.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img01.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img02.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img03.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-4">
-                <div class="single-project mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
-                    <div class="project-thumb">
-                        <img src="/img/portfolio/p_img04.png" alt="img" class="img">
-                    </div>
-                    <div class="project-info">
-                        <h4>Materals Management</h4>
-                        <a href="#">Take a Look <img src="/img/portfolio/right_icon.svg" alt="img"> </a>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- project-area-end -->
 
 <!-- testimonial-area -->
 <section id="testimonios" class="testimonial-area testimonial-p pt-50 pb-100 fix" style="background-image:url(/img/bg/testimonial_bg.png); background-size: contain;background-repeat: no-repeat;background-position: center center;">
@@ -733,10 +514,9 @@
                 </div>
             </div>
             <div class="col-lg-7 col-md-7 col-sm-12">
-                <h2>Perfect Solutions <span>For Any Industrials</span></h2>
-                <p>Donec at nunc laoreet, aliquet mi non, scelerisque diam. Mauris pulvinar nisl eget dui
-                    luctus, eu vehicula odio tempus. Nulla maximus molestie ante eget sollicitudin.</p>
-                <div class="number">+91 555 234-8765</div>
+                <h2>Perfect Solutions <span>For Any Industries</span></h2>
+                <p>The success of Air Hexa Air Solutions LLP Works stems from its commitment to provide customers with proven professional services and cost-effective solutions based on transparency.</p>
+                <div class="number">+91 81306 19084</div>
             </div>
 
         </div>
@@ -748,31 +528,13 @@
 <div class="brand-area pt-60 pb-60" style="background-color:#fff">
     <div class="container">
         <div class="row brand-active">
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_1.png" alt="img">
+            <?php for ($i = 0; $i < 8; $i++) : ?>
+                <div class="col-xl-2">
+                    <div class="single-brand">
+                        <img src="/img/brand/Client-<?= $i + 1 ?>.jpg">
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_2.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_3.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_4.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_1.png" alt="img">
-                </div>
-            </div>
+            <?php endfor; ?>
         </div>
     </div>
 </div>

@@ -8,11 +8,10 @@
                 <div class="col-lg-4 col-md-4 d-none d-lg-block">
                     <div class="header-social text-right">
                         <span>
-                            <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
-                            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
-                            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <?php foreach (SOCIAL_MEDIA as $key => $socialMedia) : ?>
+                                <a href="<?= $socialMedia['url'] ?>" title="<?= $socialMedia['name'] ?>"><i class="fab fa-<?= $socialMedia['icon'] ?>"></i></a>
+                            <?php endforeach; ?>
                         </span>
-                        <!--  /social media icon redux -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-8 d-none  d-md-block">
@@ -20,19 +19,17 @@
                         <ul>
                             <li>
                                 <i class="icon dripicons-phone"></i>
-                                <span>+8 12 3456897</span>
+                                <span><a href="tel:8130619084">8130619084</a></span>
                             </li>
                             <li>
                                 <i class="icon dripicons-mail"></i>
-                                <span>info@example.com</span>
+                                <span><a href="mailto:airhexa.ac@gmail.com">airhexa.ac@gmail.com</a></span>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4 d-none d-md-block">
-                    <a href="#" class="top-btn">Get A Quote</a>
-
-
+                    <a href="#" data-toggle="modal" data-target="#quoteModal" class="top-btn">Get A Quote</a>
                 </div>
             </div>
         </div>
@@ -52,7 +49,17 @@
                             <nav id="mobile-menu">
                                 <ul>
                                     <li><a href="<?= route_to('homePage') ?>">Home</a></li>
-                                    <li><a href="<?= route_to('aboutUsPage') ?>">About Us</a></li>
+                                    <li class="has-sub">
+                                        <a href="<?= route_to('aboutUsPage') ?>">About Us</a>
+                                        <ul>
+                                            <li class="<?= $_SERVER['REQUEST_URI'] === route_to('healthAndSafetyPage') ? 'active' : '' ?>">
+                                                <a href="<?= route_to('healthAndSafetyPage') ?>">Health & Safety</a>
+                                            </li>
+                                            <li class="<?= $_SERVER['REQUEST_URI'] === route_to('ourCoreValuesPage') ? 'active' : '' ?>">
+                                                <a href="<?= route_to('ourCoreValuesPage') ?>">Our Core Values</a>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li class="has-sub">
                                         <a href="#">Services</a>
                                         <ul>

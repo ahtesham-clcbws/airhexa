@@ -26,6 +26,15 @@
 
 <body>
 
+    <div id="loader">
+        <div class="row text-center">
+            <div class="centered">
+                <div class="blob-1"></div>
+                <div class="blob-2"></div>
+            </div>
+        </div>
+    </div>
+
     <?= view('Components/WebHeader'); ?>
 
     <!-- main-area -->
@@ -56,6 +65,7 @@
     <script src="/js/parallax-scroll.js"></script>
     <script src="/js/jquery.magnific-popup.min.js"></script>
     <script src="/js/element-in-view.js"></script>
+    <script src="/js/vendor/sweetalert2@11.js"></script>
     <script src="/js/main.js"></script>
     <?= $this->renderSection('js') ?>
 </body>

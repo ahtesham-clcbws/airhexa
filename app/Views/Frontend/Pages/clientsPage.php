@@ -9,32 +9,14 @@
 <!-- brand-area -->
 <div class="brand-area pt-60 pb-60" style="background-color:#fff">
     <div class="container">
-        <div class="row brand-active">
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_1.png" alt="img">
+        <div class="row ">
+            <?php for ($i = 0; $i < 8; $i++) : ?>
+                <div class="col-12 col-sm-6 col-md-4 col-xl-3">
+                    <div class="single-brand">
+                        <img src="/img/brand/Client-<?= $i + 1 ?>.jpg">
+                    </div>
                 </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_2.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_3.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_4.png" alt="img">
-                </div>
-            </div>
-            <div class="col-xl-2">
-                <div class="single-brand">
-                    <img src="/img/brand/client_icon_1.png" alt="img">
-                </div>
-            </div>
+            <?php endfor; ?>
         </div>
     </div>
 </div>

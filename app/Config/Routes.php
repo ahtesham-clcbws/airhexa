@@ -36,30 +36,40 @@ $routes->view('clients', 'Frontend/Pages/clientsPage', ['as' => 'clientsPage']);
 $routes->view('gallery', 'Frontend/Pages/galleryPage', ['as' => 'galleryPage']);
 $routes->view('contact-us', 'Frontend/Pages/contactUsPage', ['as' => 'contactUsPage']);
 
+$routes->view('health-and-safety', 'Frontend/Pages/healthAndSafety', ['as' => 'healthAndSafetyPage']);
+$routes->view('our-core-values', 'Frontend/Pages/ourCoreValues', ['as' => 'ourCoreValuesPage']);
+
 // Services Pages Start
 $routes->group('service', static function ($routes) {
     // $routes->get('electrical-system', static function () {
     //     return print_r([$_SERVER['REQUEST_URI'], route_to('fireFightingSystemService')]);
     // });
-    $routes->view('electrical-system', 'Frontend/Services/electricalSystemsService', ['as' => 'electricalSystemsService']);
-    $routes->view('fire-fighting-system', 'Frontend/Services/fireFightingSystemService', ['as' => 'fireFightingSystemService']);
-    $routes->view('plumbing-system', 'Frontend/Services/plumbingSystemService', ['as' => 'plumbingSystemService']);
     $routes->view('hvac', 'Frontend/Services/hvacService', ['as' => 'hvacService']);
-    $routes->view('solar-system', 'Frontend/Services/solarSystemService', ['as' => 'solarSystemService']);
-    $routes->view('civil-and-interior-works', 'Frontend/Services/civilAndInteriorWorksService', ['as' => 'civilAndInteriorWorksService']);
+    $routes->view('plumbing-and-drainage-system', 'Frontend/Services/plumbingSystemService', ['as' => 'plumbingSystemService']);
+    $routes->view('fire-fighting-system', 'Frontend/Services/fireFightingSystemService', ['as' => 'fireFightingSystemService']);
+    $routes->view('electrical-system', 'Frontend/Services/electricalSystemsService', ['as' => 'electricalSystemsService']);
+    $routes->view('industrial-ventilation', 'Frontend/Services/industrialVentilationService', ['as' => 'industrialVentilationService']);
     $routes->view('cctv-and-security-surveillance', 'Frontend/Services/cctvAndSecuritySurveillanceService', ['as' => 'cctvAndSecuritySurveillanceService']);
-    $routes->view('access-control-biometric', 'Frontend/Services/accessControlBiometricService', ['as' => 'accessControlBiometricService']);
-    $routes->view('automation-solutions', 'Frontend/Services/automationSolutionsService', ['as' => 'automationSolutionsService']);
-    $routes->view('intercom-and-networking', 'Frontend/Services/intercomAndNetworkingService', ['as' => 'intercomAndNetworkingService']);
+
+    // $routes->view('solar-system', 'Frontend/Services/solarSystemService', ['as' => 'solarSystemService']);
+    // $routes->view('civil-and-interior-works', 'Frontend/Services/civilAndInteriorWorksService', ['as' => 'civilAndInteriorWorksService']);
+    // $routes->view('access-control-biometric', 'Frontend/Services/accessControlBiometricService', ['as' => 'accessControlBiometricService']);
+    // $routes->view('automation-solutions', 'Frontend/Services/automationSolutionsService', ['as' => 'automationSolutionsService']);
+    // $routes->view('intercom-and-networking', 'Frontend/Services/intercomAndNetworkingService', ['as' => 'intercomAndNetworkingService']);
 });
 // Services Pages End
 
 // Admin Auth Pages Start
+$routes->add('login', 'AdminController::login');
+$routes->get('logout', static function () {
+    session()->destroy();
+    return redirect()->to('/login');
+});
 // Admin Auth Pages End
 
 // Admin Routes
 $routes->group('admin', ['filter' => 'adminFilter'], static function ($routes) {
-    $routes->get('/', 'AdminController::index');
+    $routes->get('/', 'AdminController::dashboard');
     $routes->get('contacts', 'AdminController::contacts');
     $routes->get('inquiries', 'AdminController::inquiries');
 });
@@ -68,6 +78,9 @@ $routes->group('admin', ['filter' => 'adminFilter'], static function ($routes) {
 $routes->addRedirect('service', 'homePage');
 
 
+$routes->group('request', static function ($routes) {
+    $routes->add('form-submission', 'RequestsController::formSubmission');
+});
 
 
 

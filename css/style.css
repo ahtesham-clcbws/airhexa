@@ -32,6 +32,20 @@ oldColor2 = #f64b3c
 /* 1. Theme default css */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.text-mainColor {
+  color: var(--mainColor) !important;
+}
+.text-mainColor2 {
+  color: var(--mainColor2) !important;
+}
+.bg-mainColor {
+  background-color: var(--mainColor) !important;
+}
+.bg-mainColor2 {
+  background-color: var(--mainColor2) !important;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -1533,7 +1547,8 @@ section:hover .section-title h2::before {
   display: inline-block;
 }
 .single-brand img {
-  height: 40px;
+  /* height: 40px; */
+  height: auto;
 }
 /* 10. work-process */
 .wp-bg {
@@ -3269,6 +3284,7 @@ div.single-cta:last-child {
   margin-bottom: 20px;
   cursor: unset;
 }
+.contact-field select,
 .contact-field input {
   width: 100%;
   border: none;
@@ -3278,7 +3294,7 @@ div.single-cta:last-child {
   border: 1px solid #dfdfdf;
   border-radius: 10px;
 }
-.contact-field.c-name::after {
+/* .contact-field.c-name::after {
   content: "\f007";
 }
 .contact-field::after {
@@ -3302,7 +3318,7 @@ div.single-cta:last-child {
   font-weight: 700;
   top: 20px;
   bottom: unset;
-}
+} */
 .contact-field input::placeholder {
   color: #9e9e9e;
 }
@@ -6713,4 +6729,71 @@ p.checkout-coupon input[type="text"] {
 }
 .listStyleBullet li {
   list-style: square;
+}
+
+/* LOADER CSS */
+#loader {
+  background: #00769d91;
+  margin: 0;
+  position: fixed;
+  z-index: 9999999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+#loader .centered {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*background:#000;*/
+  filter: blur(2px);
+}
+#loader .blob-1,
+#loader .blob-2 {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  background: #000;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#loader .blob-1 {
+  left: 20%;
+  animation: osc-l 2.5s ease infinite;
+}
+#loader .blob-2 {
+  left: 80%;
+  animation: osc-r 2.5s ease infinite;
+  background: #105689;
+}
+@keyframes osc-l {
+  0% {
+    left: 20%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 20%;
+  }
+}
+@keyframes osc-r {
+  0% {
+    left: 80%;
+  }
+  50% {
+    left: 50%;
+  }
+  100% {
+    left: 80%;
+  }
 }

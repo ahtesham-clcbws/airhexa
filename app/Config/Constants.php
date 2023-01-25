@@ -92,3 +92,71 @@ define('EVENT_PRIORITY_NORMAL', 100);
  * @deprecated Use \CodeIgniter\Events\Events::PRIORITY_HIGH instead.
  */
 define('EVENT_PRIORITY_HIGH', 10);
+
+
+define('SOCIAL_MEDIA', [
+    [
+        'name' => 'Facebook',
+        'icon'=>"facebook-f",
+        'url'=>'https://www.facebook.com/airhexa'
+    ],
+    [
+        'name' => 'Twitter',
+        'icon'=>"twitter",
+        'url'=>'https://twitter.com/AirHexaIndia'
+    ],
+    [
+        'name' => 'Instagram',
+        'icon'=>"instagram",
+        'url'=>'#'
+    ],
+    [
+        'name' => 'Linked-In',
+        'icon'=>"linkedin",
+        'url'=>'#'
+    ],
+    [
+        'name' => 'Youtube',
+        'icon'=>"youtube",
+        'url'=>'https://www.youtube.com/@airhexaairsolutions'
+    ],
+]);
+
+define('SERVICES_MENU',array(
+    array(
+        'route' => 'hvacService',
+        'name' => 'HVAC',
+    ),
+    array(
+        'route' => 'plumbingSystemService',
+        'name' => 'Plumbing &amp; Drainage Systems',
+    ),
+    array(
+        'route' => 'fireFightingSystemService',
+        'name' => 'Fire Fighting System',
+    ),
+    array(
+        'route' => 'electricalSystemsService',
+        'name' => 'Electrical System <small>(Low Current)</small>',
+    ),
+    array(
+        'route' => 'industrialVentilationService',
+        'name' => 'Industrial Ventilation',
+    ),
+    array(
+        'route' => 'cctvAndSecuritySurveillanceService',
+        'name' => 'CCTV &amp; Security Surveillance',
+    ),
+));
+
+define('GALLERY_IMAGES', [
+    'Gallery_360 Securty System.jpg',
+    'Gallery_AC Services.jpg',
+    'Gallery_CCTV.jpg',
+    'Gallery_Fire Fighting System.jpg',
+    'Gallery_Fire Sprinkler.jpg',
+    'Gallery_HVAC.jpg',
+    'Gallery_Low Current System.jpg',
+    'Gallery_Plumbing and Drainage.jpg',
+    'GalleryIndustrial Ventilation.jpg'
+]);

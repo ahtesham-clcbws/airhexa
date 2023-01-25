@@ -1,51 +1,20 @@
 <!-- footer -->
-<footer class="footer-bg footer-p pt-95 pb-30 ">
+<footer class="bg-dark footer-p pt-95 pb-30 ">
 
     <div class="footer-top pb-30">
         <div class="container">
             <div class="row justify-content-between">
 
-                <div class="col-xl-3 col-lg-3 col-sm-6">
+                <div class="col-xl-2 col-lg-2 col-sm-6">
                     <div class="footer-widget mb-30">
                         <div class="f-widget-title">
-                            <h5>Contact Us</h5>
-                        </div>
-                        <div class="footer-link">
-                            <div class="f-contact">
-                                <ul>
-                                    <li>
-                                        <i class="icon dripicons-phone"></i>
-                                        <span>1800-121-3637<br>+91 555 234-8765</span>
-                                    </li>
-                                    <li>
-                                        <i class="icon dripicons-mail"></i>
-                                        <span><a href="mailto:info@example.com">info@example.com</a><br><a href="mailto:sale@example.com">sale@example.com</a></span>
-                                    </li>
-                                    <li>
-                                        <i class="fal fa-map-marker-alt"></i>
-                                        <span>380 St Kilda Road, Melbourne<br>VIC 3004, Australia</span>
-                                    </li>
-                                </ul>
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-2 col-lg-2 col-sm-6 d-none">
-                    <div class="footer-widget mb-30">
-                        <div class="f-widget-title">
-                            <h5>Our Links</h5>
+                            <h5>Follow Us</h5>
                         </div>
                         <div class="footer-link">
                             <ul>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> Partners</a></li>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> Career</a></li>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> Reviews</a></li>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> Terms & Conditions</a></li>
-                                <li><a href="#"><i class="fas fa-chevron-right"></i> Help</a></li>
+                                <?php foreach (SOCIAL_MEDIA as $key => $socialMedia) : ?>
+                                    <li><a target="_blank" href="<?= $socialMedia['url'] ?>"><i class="fab fa-<?= $socialMedia['icon'] ?>"></i> <?= $socialMedia['name'] ?></a></li>
+                                <?php endforeach; ?>
                             </ul>
                         </div>
                     </div>
@@ -67,29 +36,45 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5 col-sm-6">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="footer-widget mb-30">
                         <div class="f-widget-title">
-                            <h5>Subscribe To Our News Letter</h5>
+                            <h5>Services</h5>
                         </div>
-                        <div class="footer-text mb-20">
-                            <p>Pellentesque quis volutpat odio, rhoncus tempor tellus. Proin condimentum turpis.</p>
-                            <!-- form -->
-                            <form name="ajax-form" id="contact-form4" action="https://formsubmit.io/send/90aa5128-c301-47bf-ae81-794fa4c07dda" method="post" class="contact-form  newslater">
-                                <div class="form-group">
-                                    <input class="form-control" id="email2" name="email" type="email" placeholder="Your email" value="" required>
-                                    <button type="submit" class="btn btn-custom" id="send2"><i class="fad fa-paper-plane"></i></button>
-                                </div>
-                                <!-- /Form-email -->
-                            </form>
-                            <!-- /form -->
+                        <div class="footer-link">
+                            <ul>
+                                <?php foreach (SERVICES_MENU as $key => $service) : ?>
+                                    <li><a href="<?= route_to($service['route']) ?>"><i class="fas fa-chevron-right"></i> <?= $service['name'] ?></a></li>
+                                <?php endforeach; ?>
+                            </ul>
                         </div>
-                        <div class="footer-social">
-                            <span>Follow Us</span>
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-sm-6">
+                    <div class="footer-widget mb-30">
+                        <div class="f-widget-title">
+                            <h5>Contact Us</h5>
+                        </div>
+                        <div class="footer-link">
+                            <div class="f-contact">
+                                <ul>
+                                    <li>
+                                        <i class="icon dripicons-phone"></i>
+                                        <span><a href="tel:8130619084">8130619084</a><br /><a href="tel:8299348725">8299348725</a></span>
+                                    </li>
+                                    <li>
+                                        <i class="icon dripicons-mail"></i>
+                                        <span><a href="mailto:airhexa.ac@gmail.com">airhexa.ac@gmail.com</a><br /><a href="mailto:info@airhexa.in">Info@airhexa.in</a></span>
+                                    </li>
+                                    <li>
+                                        <i class="fal fa-map-marker-alt"></i>
+                                        <span>159-C, Basement, Sarai<br /> Jullena, New Delhi,<br /> Pin-110025 (INDIA)</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
                         </div>
                     </div>
                 </div>
@@ -102,7 +87,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; <?= date('Y') ?> Air Hexa.</p>
+                        <p><a href="<?= route_to('homePage') ?>">Air Hexa Air Solutions</a> &copy; <?= date('Y') ?> | Designed & Powered by <a target="_blank" href="https://www,adronsoft.org/">adronSoft</a></p>
                     </div>
                 </div>
             </div>
@@ -110,3 +95,55 @@
     </div>
 </footer>
 <!-- footer-end -->
+
+<!-- Quote-modal -->
+<div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 1.3rem!important;">
+            <div class="modal-header border-0">
+                <h5 class="modal-title" id="quoteModalLabel">Get A Quote</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body pb-4">
+                <form action="#" id="quoteForm" class="contact-form wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
+                    <?= csrf_field() ?>
+                    <input name="type" value="quote" style="display: none;">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="contact-field p-relative c-name mb-20">
+                                <input type="text" name="name" autocomplete="new-name" placeholder="Full Name" required>
+                            </div>
+                            <div class="contact-field p-relative c-email mb-20">
+                                <input type="email" name="email" autocomplete="new-email" placeholder="Email">
+                            </div>
+                            <div class="contact-field p-relative c-email mb-20">
+                                <input type="number" name="mobile" autocomplete="new-mobile" minlength="10" maxlength="10" placeholder="Mobile Number" required>
+                            </div>
+                            <div class="contact-field p-relative c-email mb-20">
+                                <select class="" name="service" required>
+                                    <option value="" selected>Select Service</option>
+                                    <?php foreach (SERVICES_MENU as $key => $service) : ?>
+                                        <option value="<?= $service['name'] ?>"><?= $service['name'] ?></option>
+                                    <?php endforeach; ?>
+                                    <option value="Other">Other Service</option>
+                                </select>
+                            </div>
+                            <div class="contact-field p-relative c-subject mb-20">
+                                <input type="text" name="subject" autocomplete="new-subject" placeholder="Subject:- eg:I would like to discuss">
+                            </div>
+                            <div class="contact-field p-relative c-message mb-3">
+                                <textarea name="message" id="message" cols="30" rows="10" placeholder="Elaborate" required></textarea>
+                            </div>
+                            <div class="slider-btn">
+                                <button type="submit" class="btn ss-btn" data-animation="fadeInRight" data-delay=".8s">Send Request</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
